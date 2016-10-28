@@ -1,7 +1,12 @@
+![project screenshot](app/images/screenshot.png)
+
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+__Version 1: October 28, 2016__
+## by [J'ena SanCartier](https://github.com/jenasancartier)
+
+### Description
+A web application that allows a user to view questions and see their corresponding crowd-sourced answers, as well as ask their own questions, and even answer other user's questions posted on the page.
 
 ## Prerequisites
 
@@ -39,9 +44,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Support & Contact
+For questions or comments, please email me at [jenasancartier@gmail.com](mailto:jenasancartier@gmail.com)
 
-Specify what it takes to deploy your app.
+### Known Issues
+* No known bugs as of 10.21.2016
+
+### Technologies Used
+HTML, CSS, Bootstrap, JavaScript, Typescript, Ember, Modern JS Apps (bower)
 
 ## Further Reading / Useful Links
 
@@ -51,3 +61,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### Legal
+*Licensed under the GNU General Public License v3.0*
+
+Copyright (c) 2016 **Jena SanCartier**

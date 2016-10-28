@@ -42,14 +42,14 @@ button {
 }
 
 .nav-link a {
-  color: #e55346;
+  color: #fb8779;
   margin-left: 40px;
   font-size: 3rem;
   font-family: 'Abril Fatface', cursive;
 }
 
 .nav-link a:hover {
-  color: #fb8779
+  color: #e55346;
 }
 
 .navbar {
