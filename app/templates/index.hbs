@@ -1,0 +1,11 @@
+<h3>wonder away.</h3>
+
+<ul>
+  {{#each model as |question|}}
+    <li>
+      {{question.content}}<br>
+      {{question.notes}}<br>
+      by: {{question.author}}
+    </li>
+  {{/each}}
+</ul>
