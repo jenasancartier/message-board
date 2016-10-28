@@ -2,8 +2,34 @@ body {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Orion_Nebula_(M42)_part_HST_4800px.jpg");
 }
 
+a {
+  color: #7f1a3e;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #ff8d0f;
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 3rem;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.well {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .jumbotron h1 {
   text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 8rem;
 }
 
 .jumbotron {
@@ -12,6 +38,7 @@ body {
 
 .subtitle {
   text-align: center;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .new-question {
