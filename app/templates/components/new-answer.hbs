@@ -1,6 +1,6 @@
 {{#if addNewAnswer}}
-<div class="answer-form">
-  <h3>answer the question</h3>
+<div class="well answer-form">
+  <h3>answer the question:</h3>
     <div>
       <form>
         <div class="form-group">
@@ -20,5 +20,5 @@
     </div>
   </div>
 {{else}}
-  <button class="answer-button btn btn-primary" {{action 'answerFormShow'}}>answer the question</button>
+  <button class="answer-button btn btn-danger" {{action 'answerFormShow'}}>answer the question</button>
 {{/if}}

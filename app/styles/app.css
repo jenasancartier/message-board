@@ -4,18 +4,52 @@ body {
 
 a {
   color: #7f1a3e;
+  font-family: 'Abril Fatface', cursive;
+}
+
+a:hover {
+  color: #fb8779;
+  text-decoration: none;
+}
+
+button {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
-a:hover {
-  color: #ff8d0f;
-  text-decoration: none;
+.btn-primary:hover {
+  background-color: #fb8779;
+  border-color: #fb8779;
 }
 
-.nav-link {
+.btn-primary {
+  background-color: #e55346;
+  border-color: #e55346;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.btn-danger {
+  background-color: #78104d;
+  padding: 20px;
+  font-size: 16px;
+  border-color: #78104d;
+}
+
+.btn-danger:hover {
+  background-color: #9d0061;
+  border-color: #9d0061;
+}
+
+.nav-link a {
+  color: #e55346;
   margin-left: 40px;
   font-size: 3rem;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav-link a:hover {
+  color: #fb8779
 }
 
 .navbar {
@@ -30,6 +64,7 @@ a:hover {
   text-align: center;
   font-family: 'Abril Fatface', cursive;
   font-size: 8rem;
+  color: #7f1a3e;
 }
 
 .jumbotron {
@@ -39,6 +74,7 @@ a:hover {
 .subtitle {
   text-align: center;
   font-family: 'Abril Fatface', cursive;
+  color: #7f1a3e;
 }
 
 .new-question {
@@ -56,8 +92,19 @@ a:hover {
 text-align: center;
 }
 
+.question-form h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 .the-question {
   text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color: #7f1a3e;
+}
+
+.the-question h3,h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .edit-button {
@@ -71,12 +118,27 @@ text-align: center;
   margin-top: 20px;
 }
 
+.edit-form h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 .answer-form {
   text-align: center;
 }
 
+.answer-form h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.answer-title {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
 .answer-content {
-  font-size: 16px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .answer-button {
