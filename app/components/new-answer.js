@@ -6,6 +6,7 @@ export default Ember.Component.extend({
     answerFormShow() {
       this.set('addNewAnswer', true);
     },
+
     saveAnswer() {
       var params = {
         content: this.get('content'),

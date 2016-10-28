@@ -4,6 +4,7 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('question', params.question_id);
   },
+
   actions: {
     update(question, params) {
       Object.keys(params).forEach(function(key) {
@@ -14,7 +15,9 @@ export default Ember.Route.extend({
       question.save();
       this.transitionTo('question');
     },
+
     saveAnswer(params) {
+      debugger;
       var newAnswer = this.store.createRecord('answer', params);
       var question = params.question;
       question.get('answers').addObject(newAnswer);
