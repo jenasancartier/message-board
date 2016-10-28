@@ -1,11 +1,8 @@
+{{update-question question=model update="update"}}
 <h1>{{model.content}}</h1>
+
 
 {{question-detail question=model}}
 
-{{update-question question=model update="update"}}
 
-<hr>
-
-
-
-{{new-answer saveAnswer="saveAnswer" rental=model}}
+{{new-answer saveAnswer="saveAnswer" question=model}}
