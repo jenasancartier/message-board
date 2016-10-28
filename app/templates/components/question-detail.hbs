@@ -1,10 +1,10 @@
-<h4>by: {{question.author}}</h4>
-<h5>notes: {{question.notes}}</h5>
-
-<hr>
-<h3>Answers</h3>
-<ul>
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
+  <hr>
+  <h3>answers:</h3>
+  <br>
+  <ul>
+    {{#each question.answers as |answer|}}
+      <div class="well answer-tile">
+        {{answer-tile answer=answer}}
+      </div>
+    {{/each}}
+  </ul>

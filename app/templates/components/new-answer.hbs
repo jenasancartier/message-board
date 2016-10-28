@@ -1,20 +1,24 @@
 {{#if addNewAnswer}}
-<h3>Answer the Question</h3>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="content">an answer:</label>
-        {{input value=content id="content"}}
-      </div>
-      <div class="form-group">
-        <label for="author">your name:</label>
-        {{input value=author id="author"}}
-      </div>
+<div class="answer-form">
+  <h3>answer the question</h3>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="content">an answer:</label>
+          {{input value=content id="content"}}
+        </div>
+        <div class="form-group">
+          <label for="author">your name:</label>
+          {{input value=author id="author"}}
+        </div>
 
-      <button class="btn btn-primary"{{action 'saveAnswer'}}>Add</button>
+        <button class="btn btn-primary"{{action 'saveAnswer'}}>Add</button>
 
-    </form>
+        <button class="btn btn-danger"{{action 'cancelAnswer'}}>Cancel</button>
+
+      </form>
+    </div>
   </div>
 {{else}}
-  <button class="btn btn-primary" {{action 'answerFormShow'}}>Answer the Question</button>
+  <button class="answer-button btn btn-primary" {{action 'answerFormShow'}}>answer the question</button>
 {{/if}}

@@ -7,6 +7,10 @@ export default Ember.Component.extend({
       this.set('addNewQuestion', true);
     },
 
+    cancelQuestion() {
+      this.set('addNewQuestion', false);
+    },
+
     saveQuestion1() {
       var params = {
         content: this.get('content'),

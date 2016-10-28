@@ -1,24 +1,26 @@
 {{#if updateQuestionForm}}
-  <h4>Edit {{question.author}}'s Question</h4>
-  <div>
+<div class="edit-form">
+  <h3>edit the question:</h3>
     <form>
       <div class="form-group">
-        <label for="content">question:</label>
+        <label for="content">a question:</label>
         {{input value=content id="content" placeholder=question.content}}
       </div>
       <div class="form-group">
-        <label for="author">name:</label>
+        <label for="author">your name:</label>
         {{input value=author id="author" placeholder=question.author}}
       </div>
       <div class="form-group">
-        <label for="notes">notes:</label>
+        <label for="notes">your notes:</label>
         {{input value=notes id="notes" placeholder=question.notes}}
       </div>
 
       <button class="btn btn-primary"{{action 'update' question}}>Save</button>
 
+      <button class="btn btn-danger"{{action 'cancelEdit'}}>Cancel</button>
+
     </form>
   </div>
   {{else}}
-    <button class="btn btn-primary"{{action 'updateQuestionForm'}}>Edit</button>
+    <button class="edit-button btn btn-primary"{{action 'updateQuestionForm'}}>edit the question</button>
   {{/if}}

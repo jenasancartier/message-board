@@ -1,0 +1,55 @@
+.jumbotron h1 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.new-question {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.question-block {
+  margin-top: 40px;
+}
+
+.question-form {
+text-align: center;
+}
+
+.the-question {
+  text-align: center;
+}
+
+.edit-button {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.edit-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.answer-form {
+  text-align: center;
+}
+
+.answer-content {
+  font-size: 16px;
+}
+
+.answer-button {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#the-question {
+  text-align: center;
+}
