@@ -1,5 +1,26 @@
 {{#if addNewQuestion}}
-  <p>display new question form - to be replaced with code</p>
+  <h3>ask a question.</h3>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="content">a question:</label>
+        {{input value=content id="content"}}
+      </div>
+      <div class="form-group">
+        <label for="author">your name:</label>
+        {{input value=author id="author"}}
+      </div>
+      <div class="form-group">
+        <label for="notes">your notes:</label>
+        {{input value=notes id="notes"}}
+      </div>
+
+      <button class="btn btn-primary"{{action 'saveQuestion1'}}>Add</button>
+
+    </form>
+  </div>
+
+
 {{else}}
   <button class="btn btn-primary" {{action 'questionFormShow'}}>New Question</button>
 {{/if}}
