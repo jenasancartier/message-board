@@ -6,11 +6,6 @@
 
 <hr>
 
-<h3>Answers</h3>
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{question.author}}
-        {{question.content}}
-    </li>
-  {{/each}}
-</ul>
+
+
+{{new-answer saveAnswer="saveAnswer" rental=model}}
