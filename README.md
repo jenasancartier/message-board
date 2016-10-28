@@ -48,10 +48,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 For questions or comments, please email me at [jenasancartier@gmail.com](mailto:jenasancartier@gmail.com)
 
 ### Known Issues
-* No known bugs as of 10.21.2016
+* No known bugs as of 10.28.2016
 
 ### Technologies Used
-HTML, CSS, Bootstrap, JavaScript, Typescript, Ember, Modern JS Apps (bower)
+HTML, CSS, Bootstrap, JavaScript, Ember, Modern JS Apps (bower)
 
 ## Further Reading / Useful Links
 
