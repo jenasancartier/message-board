@@ -2,10 +2,6 @@
 
 <ul>
   {{#each model as |question|}}
-    <li>
-      {{question.content}}<br>
-      {{question.notes}}<br>
-      by: {{question.author}}
-    </li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
