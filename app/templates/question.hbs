@@ -3,3 +3,14 @@
 {{question-detail question=model}}
 
 {{update-question question=model update="update"}}
+
+<hr>
+
+<h3>Answers</h3>
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{question.author}}
+        {{question.content}}
+    </li>
+  {{/each}}
+</ul>
