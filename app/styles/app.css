@@ -1,5 +1,13 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Orion_Nebula_(M42)_part_HST_4800px.jpg");
+}
+
 .jumbotron h1 {
   text-align: center;
+}
+
+.jumbotron {
+  background-color: rgba(123, 100, 99, 0.0);
 }
 
 .subtitle {
