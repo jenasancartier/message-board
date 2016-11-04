@@ -135,6 +135,15 @@ text-align: center;
   font-family: 'Abril Fatface', cursive;
 }
 
+.review-tile {
+  color: white;
+}
+
+.review-tile h2 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
 .edit-button {
   display: block;
   margin: auto;

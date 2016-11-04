@@ -9,9 +9,14 @@
   {{/each}}
 </ul>
 
-<h5>Reviews</h5>
-<ul>
-  {{#each question.reviews as |review|}}
-    {{review-tile review=review}}
-  {{/each}}
-</ul>
+<hr>
+<hr>
+
+<div class="review-tile">
+  <h2>Reviews:</h2>
+  <ul>
+    {{#each question.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </ul>
+</div>
