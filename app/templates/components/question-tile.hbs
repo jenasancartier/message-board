@@ -2,4 +2,6 @@
   <h3 class="index-questions">{{#link-to 'question' question.id}}{{question.content}}<br>
   {{/link-to}}</h3>
   by: {{question.author}}
+
+  <button {{action 'addToFavorites' question}}>Add to Favorites</button>
 </li>

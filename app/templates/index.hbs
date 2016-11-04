@@ -6,10 +6,10 @@
 
 <hr>
 
-<div class="well question-block">
-  <ul>
-    {{#each model.questions as |question|}}
+<ul>
+  {{#each model.questions as |question|}}
+    <div class="well question-block">
       {{question-tile question=question}}
-    {{/each}}
-  </ul>
-</div>
+    </div>
+  {{/each}}
+</ul>
