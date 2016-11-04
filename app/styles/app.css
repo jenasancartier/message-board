@@ -120,6 +120,21 @@ text-align: center;
     font-weight: 300;
 }
 
+.review-button {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.review-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review-form h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 .edit-button {
   display: block;
   margin: auto;

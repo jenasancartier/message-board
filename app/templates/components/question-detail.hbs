@@ -1,17 +1,17 @@
-  <hr>
-  <!-- <h2 class="answer-title">answers:</h2> -->
-  <br>
-  <ul>
-    {{#each question.answers as |answer|}}
-      <div class="well answer-tile">
-        {{answer-tile answer=answer}}
-      </div>
-    {{/each}}
-  </ul>
 
-  <h5>Reviews</h5>
-  <ul>
-    {{#each question.reviews as |review|}}
-      {{review-tile review=review}}
-    {{/each}}
-  </ul>
+<hr>
+<br>
+<ul>
+  {{#each question.answers as |answer|}}
+    <div class="well answer-tile">
+      {{answer-tile answer=answer}}
+    </div>
+  {{/each}}
+</ul>
+
+<h5>Reviews</h5>
+<ul>
+  {{#each question.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</ul>

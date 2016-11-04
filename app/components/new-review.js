@@ -7,6 +7,10 @@ export default Ember.Component.extend({
       this.set('addNewReview', true);
     },
 
+    cancelReview() {
+      this.set('addNewReview', false);
+    },
+
     saveReview() {
       var params = {
         user: this.get('user'),
@@ -16,6 +20,9 @@ export default Ember.Component.extend({
       }
       this.set('addNewReview', false);
       this.sendAction('saveReview', params);
+      this.set('user', "");
+      this.set('rating', "");
+      this.set('comment', "");
     }
   }
 });
