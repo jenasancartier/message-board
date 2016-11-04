@@ -1,4 +1,4 @@
-![project screenshot](/images/screenshot.png)
+![project screenshot](public/images/screenshot.png)
 
 # Message-board
 
