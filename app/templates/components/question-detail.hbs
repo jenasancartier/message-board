@@ -8,3 +8,10 @@
       </div>
     {{/each}}
   </ul>
+
+  <h5>Reviews</h5>
+  <ul>
+    {{#each question.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </ul>

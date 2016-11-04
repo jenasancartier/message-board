@@ -5,6 +5,8 @@
   <h4>notes: {{model.notes}}</h4>
 </div>
 
+{{new-review saveReview="saveReview" question=model}}
+
 {{update-question question=model update="update"}}
 
 {{new-answer saveAnswer="saveAnswer" question=model}}

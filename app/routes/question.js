@@ -24,6 +24,12 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('question', question);
+    },
+
+    saveReview(params) {
+      var newReview = this.store.createRecord('review', params);
+      newReview.save();
+      this.transitionTo('question');
     }
   }
 });
