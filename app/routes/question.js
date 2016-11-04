@@ -34,6 +34,10 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('question', question);
-    }
+    },
+
+    // addToFavorites(favorite) {
+    //   this.get('myFavorites').add(favorite);
+    // },
   }
 });

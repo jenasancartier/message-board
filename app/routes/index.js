@@ -14,6 +14,9 @@ export default Ember.Route.extend({
     saveQuestion3(params) {
       var newQuestion = this.store.createRecord('question', params);
       newQuestion.save();
+      this.set('content', '');
+      this.set('author', '');
+      this.set('notes', '');
       this.transitionTo('index');
     },
   }
