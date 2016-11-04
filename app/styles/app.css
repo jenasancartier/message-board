@@ -65,17 +65,21 @@ ul {
 .nav-link a {
   color: #fb8779;
   margin-left: 40px;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
 .nav-link a:hover {
-  color: #e55346;
+  color: #7f1a3e;
 }
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.fav-nav {
+  margin-left: 85%;
 }
 
 .well {
@@ -201,6 +205,12 @@ text-align: center;
   display: block;
   margin: auto;
   margin-top: 15px;
+}
+
+.fav-header {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #7f1a3e;
 }
 
 #the-question {

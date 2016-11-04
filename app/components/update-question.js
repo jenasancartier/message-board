@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     cancelEdit() {
       this.set('updateQuestionForm', false);
     },
-    
+
     update(question) {
       var params = {
         content: this.get('content'),
@@ -19,6 +19,9 @@ export default Ember.Component.extend({
       };
       this.set('updateQuestionForm', false);
       this.sendAction('update', question, params);
+      this.set('content', "");
+      this.set('author', "");
+      this.set('notes', "");
     }
   }
 });
