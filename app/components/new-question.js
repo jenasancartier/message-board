@@ -17,8 +17,12 @@ export default Ember.Component.extend({
         author: this.get('author'),
         notes: this.get('notes'),
       };
-      this.set('addNewQuestion', false);
-      this.sendAction('saveQuestion2', params);
+      if(params.content && params.author && params.notes) {
+        this.set('addNewQuestion', false);
+        this.sendAction('saveQuestion2', params);
+      } else {
+        alert("Hey, fill out the form completely.");
+      }
     }
   }
 });
