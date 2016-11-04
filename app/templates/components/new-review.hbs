@@ -1,0 +1,25 @@
+{{#if addNewReview}}
+<h3>New Review</h3>
+  <div class="well review-form">
+    <form>
+
+      <div class="form-group">
+        <label for="user">Name</label>
+        {{input value=user id="user"}}
+      </div>
+
+      <div class="form-group">
+        <label for="rating">Rating</label>
+        {{input value=rating id="rating"}}
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        {{input value=comment id="comment"}}
+      </div>
+      <button class="btn btn-review" {{action 'saveReview'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-primary" {{action 'reviewFormShow'}}>New Review</button>
+{{/if}}

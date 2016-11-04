@@ -36,6 +36,18 @@ button {
   border-color: #78104d;
 }
 
+.btn-caution {
+  background-color: #e55346;
+  border-color: #e55346;
+  color: white;
+}
+
+.btn-caution:hover {
+  background-color: #fb8779;
+  border-color: #fb8779;
+  color: white;
+}
+
 .btn-danger:hover {
   background-color: #9d0061;
   border-color: #9d0061;

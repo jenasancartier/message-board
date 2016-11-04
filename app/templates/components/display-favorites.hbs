@@ -1,3 +1,9 @@
-{{#each myFavorites.favorites as |favorite|}}
-  {{favorite.content}} -- {{favorite.author}}<br>
-{{/each}}
+<ul>
+  {{#each myFavorites.favorites as |favorite|}}
+    <div class="well favorite-block">
+      <h3 class="index-questions">{{#link-to 'question' favorite.id}}{{favorite.content}}<br>
+      {{/link-to}}</h3>
+      {{favorite.author}}<br>
+    </div>
+  {{/each}}
+</ul>
