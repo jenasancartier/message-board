@@ -21,6 +21,11 @@ ul {
   list-style-type: none;
 }
 
+.like {
+  display: block;
+  margin-left: 95%;
+}
+
 .btn-primary:hover {
   background-color: #fb8779;
   border-color: #fb8779;
@@ -41,14 +46,14 @@ ul {
 }
 
 .btn-caution {
-  background-color: #e55346;
-  border-color: #e55346;
+  background-color: #fb8779;
+  border-color: #fb8779;
   color: white;
 }
 
 .btn-caution:hover {
-  background-color: #fb8779;
-  border-color: #fb8779;
+  background-color: #e55346;
+  border-color: #e55346;
   color: white;
 }
 

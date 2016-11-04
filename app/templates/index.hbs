@@ -9,7 +9,7 @@
 <ul>
   {{#each model.questions as |question|}}
     <div class="well question-block">
-      {{question-tile question=question}}
+    {{question-tile question=question}}{{question-popularity question}}
     </div>
   {{/each}}
 </ul>
