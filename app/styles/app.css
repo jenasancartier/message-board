@@ -17,6 +17,10 @@ button {
   font-weight: 300;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .btn-primary:hover {
   background-color: #fb8779;
   border-color: #fb8779;
@@ -137,11 +141,20 @@ text-align: center;
 
 .review-tile {
   color: white;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
 
 .review-tile h2 {
   font-family: 'Abril Fatface', cursive;
   text-align: center;
+}
+
+.review-well {
+  background-color: rgba(120, 16, 77, 0.7);
+  border: none;
+  margin: 2px;
 }
 
 .edit-button {

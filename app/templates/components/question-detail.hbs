@@ -1,6 +1,6 @@
-
 <hr>
 <br>
+
 <ul>
   {{#each question.answers as |answer|}}
     <div class="well answer-tile">
@@ -15,8 +15,10 @@
 <div class="review-tile">
   <h2>Reviews:</h2>
   <ul>
-    {{#each question.reviews as |review|}}
-      {{review-tile review=review}}
+    {{#each sortedReviews as |review|}}
+      <div class="well review-well">
+        {{review-tile review=review}}
+      </div>
     {{/each}}
   </ul>
 </div>
