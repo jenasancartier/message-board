@@ -1,8 +1,9 @@
-![project screenshot](app/images/screenshot.png)
+![project screenshot](/images/screenshot.png)
 
 # Message-board
 
 __Version 1: October 28, 2016__
+__Version 2: November 4, 2016__
 ## by [J'ena SanCartier](https://github.com/jenasancartier)
 
 ### Description
